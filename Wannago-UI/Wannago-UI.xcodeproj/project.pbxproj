@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7054D5C12C1AE05D005CEFCE /* Wannago_UIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5C02C1AE05D005CEFCE /* Wannago_UIApp.swift */; };
+		7054D5C32C1AE05D005CEFCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5C22C1AE05D005CEFCE /* ContentView.swift */; };
+		7054D5C52C1AE060005CEFCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7054D5C42C1AE060005CEFCE /* Assets.xcassets */; };
+		7054D5C82C1AE060005CEFCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7054D5C72C1AE060005CEFCE /* Preview Assets.xcassets */; };
+		7054D5D22C1AE060005CEFCE /* Wannago_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5D12C1AE060005CEFCE /* Wannago_UITests.swift */; };
+		7054D5DC2C1AE060005CEFCE /* Wannago_UIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5DB2C1AE060005CEFCE /* Wannago_UIUITests.swift */; };
+		7054D5DE2C1AE060005CEFCE /* Wannago_UIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5DD2C1AE060005CEFCE /* Wannago_UIUITestsLaunchTests.swift */; };
+		7054D5ED2C1AE270005CEFCE /* TeamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5EC2C1AE270005CEFCE /* TeamDetailView.swift */; };
+		7054D5F72C1AE376005CEFCE /* TacticsBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5F62C1AE376005CEFCE /* TacticsBoardView.swift */; };
+		7054D5FB2C1AE578005CEFCE /* EditTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7054D5FA2C1AE578005CEFCE /* EditTeamView.swift */; };
+		7054D5FD2C1AE8F3005CEFCE /* soccer_field.png in Resources */ = {isa = PBXBuildFile; fileRef = 7054D5FC2C1AE8F3005CEFCE /* soccer_field.png */; };
+		70AD2C742C264E4A00635562 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C732C264E4A00635562 /* PlayerView.swift */; };
+		70AD2C762C26540700635562 /* PlayerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C752C26540700635562 /* PlayerDetailView.swift */; };
+		70AD2C782C26541F00635562 /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C772C26541F00635562 /* Match.swift */; };
+		70AD2C7A2C26543200635562 /* EditMatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C792C26543200635562 /* EditMatchView.swift */; };
+		70AD2C7C2C26544A00635562 /* MatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C7B2C26544A00635562 /* MatchListView.swift */; };
+		70AD2C7E2C26546700635562 /* TeamStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C7D2C26546700635562 /* TeamStatisticsView.swift */; };
+		70AD2C802C26547800635562 /* SaveTacticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C7F2C26547800635562 /* SaveTacticView.swift */; };
+		70AD2C842C2654F200635562 /* Binding+Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C832C2654F200635562 /* Binding+Optional.swift */; };
+		70AD2C872C26560F00635562 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C862C26560F00635562 /* Player.swift */; };
+		70AD2C892C26562200635562 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C882C26562200635562 /* Team.swift */; };
+		70AD2C8B2C26565300635562 /* Formation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C8A2C26565300635562 /* Formation.swift */; };
+		70AD2C8F2C26568400635562 /* DrawingPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C8E2C26568400635562 /* DrawingPath.swift */; };
+		70AD2C942C265D5900635562 /* EditPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C932C265D5900635562 /* EditPlayerView.swift */; };
+		70AD2C962C265D7B00635562 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C952C265D7B00635562 /* ImagePicker.swift */; };
+		70AD2C982C265D9A00635562 /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70AD2C972C265D9A00635562 /* MatchDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7054D5CE2C1AE060005CEFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7054D5B52C1AE05D005CEFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7054D5BC2C1AE05D005CEFCE;
+			remoteInfo = "Wannago-UI";
+		};
+		7054D5D82C1AE060005CEFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7054D5B52C1AE05D005CEFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7054D5BC2C1AE05D005CEFCE;
+			remoteInfo = "Wannago-UI";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7054D5BD2C1AE05D005CEFCE /* Wannago-UI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wannago-UI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7054D5C02C1AE05D005CEFCE /* Wannago_UIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wannago_UIApp.swift; sourceTree = "<group>"; };
+		7054D5C22C1AE05D005CEFCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7054D5C42C1AE060005CEFCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7054D5C72C1AE060005CEFCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7054D5CD2C1AE060005CEFCE /* Wannago-UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wannago-UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7054D5D12C1AE060005CEFCE /* Wannago_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wannago_UITests.swift; sourceTree = "<group>"; };
+		7054D5D72C1AE060005CEFCE /* Wannago-UIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wannago-UIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7054D5DB2C1AE060005CEFCE /* Wannago_UIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wannago_UIUITests.swift; sourceTree = "<group>"; };
+		7054D5DD2C1AE060005CEFCE /* Wannago_UIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wannago_UIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7054D5EC2C1AE270005CEFCE /* TeamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamDetailView.swift; sourceTree = "<group>"; };
+		7054D5F62C1AE376005CEFCE /* TacticsBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TacticsBoardView.swift; sourceTree = "<group>"; };
+		7054D5FA2C1AE578005CEFCE /* EditTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTeamView.swift; sourceTree = "<group>"; };
+		7054D5FC2C1AE8F3005CEFCE /* soccer_field.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = soccer_field.png; sourceTree = "<group>"; };
+		70AD2C732C264E4A00635562 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		70AD2C752C26540700635562 /* PlayerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDetailView.swift; sourceTree = "<group>"; };
+		70AD2C772C26541F00635562 /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		70AD2C792C26543200635562 /* EditMatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMatchView.swift; sourceTree = "<group>"; };
+		70AD2C7B2C26544A00635562 /* MatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchListView.swift; sourceTree = "<group>"; };
+		70AD2C7D2C26546700635562 /* TeamStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamStatisticsView.swift; sourceTree = "<group>"; };
+		70AD2C7F2C26547800635562 /* SaveTacticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTacticView.swift; sourceTree = "<group>"; };
+		70AD2C832C2654F200635562 /* Binding+Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+Optional.swift"; sourceTree = "<group>"; };
+		70AD2C862C26560F00635562 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		70AD2C882C26562200635562 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		70AD2C8A2C26565300635562 /* Formation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formation.swift; sourceTree = "<group>"; };
+		70AD2C8E2C26568400635562 /* DrawingPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingPath.swift; sourceTree = "<group>"; };
+		70AD2C932C265D5900635562 /* EditPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPlayerView.swift; sourceTree = "<group>"; };
+		70AD2C952C265D7B00635562 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		70AD2C972C265D9A00635562 /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7054D5BA2C1AE05D005CEFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5CA2C1AE060005CEFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5D42C1AE060005CEFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7054D5B42C1AE05D005CEFCE = {
+			isa = PBXGroup;
+			children = (
+				7054D5BF2C1AE05D005CEFCE /* Wannago-UI */,
+				7054D5D02C1AE060005CEFCE /* Wannago-UITests */,
+				7054D5DA2C1AE060005CEFCE /* Wannago-UIUITests */,
+				7054D5BE2C1AE05D005CEFCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7054D5BE2C1AE05D005CEFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7054D5BD2C1AE05D005CEFCE /* Wannago-UI.app */,
+				7054D5CD2C1AE060005CEFCE /* Wannago-UITests.xctest */,
+				7054D5D72C1AE060005CEFCE /* Wannago-UIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7054D5BF2C1AE05D005CEFCE /* Wannago-UI */ = {
+			isa = PBXGroup;
+			children = (
+				70AD2C912C26583800635562 /* Extentions */,
+				70AD2C902C26569400635562 /* Views */,
+				70AD2C852C2655DB00635562 /* Models */,
+				7054D5C62C1AE060005CEFCE /* Preview Content */,
+				7054D5C02C1AE05D005CEFCE /* Wannago_UIApp.swift */,
+				7054D5C42C1AE060005CEFCE /* Assets.xcassets */,
+				7054D5FC2C1AE8F3005CEFCE /* soccer_field.png */,
+			);
+			path = "Wannago-UI";
+			sourceTree = "<group>";
+		};
+		7054D5C62C1AE060005CEFCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7054D5C72C1AE060005CEFCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7054D5D02C1AE060005CEFCE /* Wannago-UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7054D5D12C1AE060005CEFCE /* Wannago_UITests.swift */,
+			);
+			path = "Wannago-UITests";
+			sourceTree = "<group>";
+		};
+		7054D5DA2C1AE060005CEFCE /* Wannago-UIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7054D5DB2C1AE060005CEFCE /* Wannago_UIUITests.swift */,
+				7054D5DD2C1AE060005CEFCE /* Wannago_UIUITestsLaunchTests.swift */,
+			);
+			path = "Wannago-UIUITests";
+			sourceTree = "<group>";
+		};
+		70AD2C852C2655DB00635562 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				70AD2C772C26541F00635562 /* Match.swift */,
+				70AD2C862C26560F00635562 /* Player.swift */,
+				70AD2C882C26562200635562 /* Team.swift */,
+				70AD2C8A2C26565300635562 /* Formation.swift */,
+				70AD2C8E2C26568400635562 /* DrawingPath.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		70AD2C902C26569400635562 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7054D5C22C1AE05D005CEFCE /* ContentView.swift */,
+				7054D5EC2C1AE270005CEFCE /* TeamDetailView.swift */,
+				7054D5F62C1AE376005CEFCE /* TacticsBoardView.swift */,
+				70AD2C732C264E4A00635562 /* PlayerView.swift */,
+				7054D5FA2C1AE578005CEFCE /* EditTeamView.swift */,
+				70AD2C792C26543200635562 /* EditMatchView.swift */,
+				70AD2C7B2C26544A00635562 /* MatchListView.swift */,
+				70AD2C752C26540700635562 /* PlayerDetailView.swift */,
+				70AD2C7D2C26546700635562 /* TeamStatisticsView.swift */,
+				70AD2C7F2C26547800635562 /* SaveTacticView.swift */,
+				70AD2C932C265D5900635562 /* EditPlayerView.swift */,
+				70AD2C952C265D7B00635562 /* ImagePicker.swift */,
+				70AD2C972C265D9A00635562 /* MatchDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70AD2C912C26583800635562 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				70AD2C832C2654F200635562 /* Binding+Optional.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7054D5BC2C1AE05D005CEFCE /* Wannago-UI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7054D5E12C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UI" */;
+			buildPhases = (
+				7054D5B92C1AE05D005CEFCE /* Sources */,
+				7054D5BA2C1AE05D005CEFCE /* Frameworks */,
+				7054D5BB2C1AE05D005CEFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wannago-UI";
+			productName = "Wannago-UI";
+			productReference = 7054D5BD2C1AE05D005CEFCE /* Wannago-UI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7054D5CC2C1AE060005CEFCE /* Wannago-UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7054D5E42C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UITests" */;
+			buildPhases = (
+				7054D5C92C1AE060005CEFCE /* Sources */,
+				7054D5CA2C1AE060005CEFCE /* Frameworks */,
+				7054D5CB2C1AE060005CEFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7054D5CF2C1AE060005CEFCE /* PBXTargetDependency */,
+			);
+			name = "Wannago-UITests";
+			productName = "Wannago-UITests";
+			productReference = 7054D5CD2C1AE060005CEFCE /* Wannago-UITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7054D5D62C1AE060005CEFCE /* Wannago-UIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7054D5E72C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UIUITests" */;
+			buildPhases = (
+				7054D5D32C1AE060005CEFCE /* Sources */,
+				7054D5D42C1AE060005CEFCE /* Frameworks */,
+				7054D5D52C1AE060005CEFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7054D5D92C1AE060005CEFCE /* PBXTargetDependency */,
+			);
+			name = "Wannago-UIUITests";
+			productName = "Wannago-UIUITests";
+			productReference = 7054D5D72C1AE060005CEFCE /* Wannago-UIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7054D5B52C1AE05D005CEFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					7054D5BC2C1AE05D005CEFCE = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					7054D5CC2C1AE060005CEFCE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7054D5BC2C1AE05D005CEFCE;
+					};
+					7054D5D62C1AE060005CEFCE = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 7054D5BC2C1AE05D005CEFCE;
+					};
+				};
+			};
+			buildConfigurationList = 7054D5B82C1AE05D005CEFCE /* Build configuration list for PBXProject "Wannago-UI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7054D5B42C1AE05D005CEFCE;
+			productRefGroup = 7054D5BE2C1AE05D005CEFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7054D5BC2C1AE05D005CEFCE /* Wannago-UI */,
+				7054D5CC2C1AE060005CEFCE /* Wannago-UITests */,
+				7054D5D62C1AE060005CEFCE /* Wannago-UIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7054D5BB2C1AE05D005CEFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054D5C82C1AE060005CEFCE /* Preview Assets.xcassets in Resources */,
+				7054D5FD2C1AE8F3005CEFCE /* soccer_field.png in Resources */,
+				7054D5C52C1AE060005CEFCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5CB2C1AE060005CEFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5D52C1AE060005CEFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7054D5B92C1AE05D005CEFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054D5C32C1AE05D005CEFCE /* ContentView.swift in Sources */,
+				7054D5FB2C1AE578005CEFCE /* EditTeamView.swift in Sources */,
+				70AD2C7A2C26543200635562 /* EditMatchView.swift in Sources */,
+				70AD2C8F2C26568400635562 /* DrawingPath.swift in Sources */,
+				70AD2C782C26541F00635562 /* Match.swift in Sources */,
+				70AD2C7C2C26544A00635562 /* MatchListView.swift in Sources */,
+				70AD2C742C264E4A00635562 /* PlayerView.swift in Sources */,
+				70AD2C982C265D9A00635562 /* MatchDetailView.swift in Sources */,
+				70AD2C962C265D7B00635562 /* ImagePicker.swift in Sources */,
+				70AD2C942C265D5900635562 /* EditPlayerView.swift in Sources */,
+				70AD2C802C26547800635562 /* SaveTacticView.swift in Sources */,
+				70AD2C8B2C26565300635562 /* Formation.swift in Sources */,
+				70AD2C762C26540700635562 /* PlayerDetailView.swift in Sources */,
+				70AD2C842C2654F200635562 /* Binding+Optional.swift in Sources */,
+				70AD2C7E2C26546700635562 /* TeamStatisticsView.swift in Sources */,
+				7054D5ED2C1AE270005CEFCE /* TeamDetailView.swift in Sources */,
+				70AD2C892C26562200635562 /* Team.swift in Sources */,
+				7054D5C12C1AE05D005CEFCE /* Wannago_UIApp.swift in Sources */,
+				70AD2C872C26560F00635562 /* Player.swift in Sources */,
+				7054D5F72C1AE376005CEFCE /* TacticsBoardView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5C92C1AE060005CEFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054D5D22C1AE060005CEFCE /* Wannago_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7054D5D32C1AE060005CEFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7054D5DE2C1AE060005CEFCE /* Wannago_UIUITestsLaunchTests.swift in Sources */,
+				7054D5DC2C1AE060005CEFCE /* Wannago_UIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7054D5CF2C1AE060005CEFCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7054D5BC2C1AE05D005CEFCE /* Wannago-UI */;
+			targetProxy = 7054D5CE2C1AE060005CEFCE /* PBXContainerItemProxy */;
+		};
+		7054D5D92C1AE060005CEFCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7054D5BC2C1AE05D005CEFCE /* Wannago-UI */;
+			targetProxy = 7054D5D82C1AE060005CEFCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7054D5DF2C1AE060005CEFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7054D5E02C1AE060005CEFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7054D5E22C1AE060005CEFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wannago-UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7054D5E32C1AE060005CEFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wannago-UI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7054D5E52C1AE060005CEFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wannago-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wannago-UI";
+			};
+			name = Debug;
+		};
+		7054D5E62C1AE060005CEFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wannago-UI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Wannago-UI";
+			};
+			name = Release;
+		};
+		7054D5E82C1AE060005CEFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wannago-UI";
+			};
+			name = Debug;
+		};
+		7054D5E92C1AE060005CEFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Wannago.Wannago-UIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wannago-UI";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7054D5B82C1AE05D005CEFCE /* Build configuration list for PBXProject "Wannago-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7054D5DF2C1AE060005CEFCE /* Debug */,
+				7054D5E02C1AE060005CEFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7054D5E12C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7054D5E22C1AE060005CEFCE /* Debug */,
+				7054D5E32C1AE060005CEFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7054D5E42C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7054D5E52C1AE060005CEFCE /* Debug */,
+				7054D5E62C1AE060005CEFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7054D5E72C1AE060005CEFCE /* Build configuration list for PBXNativeTarget "Wannago-UIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7054D5E82C1AE060005CEFCE /* Debug */,
+				7054D5E92C1AE060005CEFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7054D5B52C1AE05D005CEFCE /* Project object */;
+}
